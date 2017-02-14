@@ -6,4 +6,7 @@ Predictions:
 2.Predicting when opportunities will be closed
 3.Probability of winning or losing an opportunity in the next 30 days (with confident interval)
 
-Get to know the data
+Get to know the data:
+separate tables: opportunities, licensees, partners, activities, products, customers
+association tables: Opportunity_Line_Items, Partner_Opportunities
+oppotunities table is the core table and we can access every table through oppotunities
