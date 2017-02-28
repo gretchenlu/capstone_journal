@@ -40,7 +40,7 @@ smaller3 <- smaller2[ order(smaller2[,1], smaller2[,7]), ]
 
 colnames(opportunities)[1] <- "opportunity_id"
 colnames(activities)[1] <- "activity_id"
-#!!! op_act has a lot less records then opoortunities table 
+#!!! op_act has a lot less records than opoortunities table 
 # op_act <- merge(opportunities, activities, by.x = "opportunity_id", by.y = "opportunity_id")
 # colnames(op_act)[1] <- "opportunity_id"
 # colnames(op_act) <- c("opportunity_id", "name.oppor", "amount.oppor", "stage.oppor", "created_date.oppor",
